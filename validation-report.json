@@ -1,0 +1,244 @@
+{
+  "source_archive": "chapters.rar",
+  "language": "ru_RU",
+  "chapter_count": 31,
+  "unique_text_count": 3355,
+  "chapters": [
+    {
+      "file": "4trophy_collection.snbt",
+      "quests": 18,
+      "text_strings": 26,
+      "changed_strings": 24,
+      "sha256": "bcffddcc95600d4f3e19a425d389b224bf9a1814e48b4a52987f310f54093fe5"
+    },
+    {
+      "file": "8the_prision.snbt",
+      "quests": 18,
+      "text_strings": 72,
+      "changed_strings": 52,
+      "sha256": "dc4aef6172f148abbcfa8d9c06a890c25db981a4bdf6209ff729470c3f905f47"
+    },
+    {
+      "file": "applied_energistics_2.snbt",
+      "quests": 148,
+      "text_strings": 259,
+      "changed_strings": 204,
+      "sha256": "08da2eed33e437c966a870c29ad543644c6ce1c93c3f70ff862ba1d7003c3fc5"
+    },
+    {
+      "file": "archon.snbt",
+      "quests": 51,
+      "text_strings": 68,
+      "changed_strings": 66,
+      "sha256": "81c2da110fc154739673e2da4ca288fb2137350e93f6653f094ad4f97e6f4492"
+    },
+    {
+      "file": "artifact_reforging.snbt",
+      "quests": 29,
+      "text_strings": 111,
+      "changed_strings": 97,
+      "sha256": "279885045f81604bace2e9debf4d14eec6835189df406cca36af31aed8fdd86e"
+    },
+    {
+      "file": "backpacks.snbt",
+      "quests": 68,
+      "text_strings": 91,
+      "changed_strings": 77,
+      "sha256": "3d7d87aa736a6b49377f41e0cdb39c8be77698ec015e111096778977c6e8082a"
+    },
+    {
+      "file": "botania.snbt",
+      "quests": 111,
+      "text_strings": 51,
+      "changed_strings": 51,
+      "sha256": "42b6ff6c9c3b6da1085f5aef9e02d24b8ea2d28656e8176159ec0740ca996a44"
+    },
+    {
+      "file": "c_bewitchment.snbt",
+      "quests": 88,
+      "text_strings": 269,
+      "changed_strings": 210,
+      "sha256": "bfa067e88c3b438dd23cb1fa21b2b23bfbe1e9a8ed8dd4d4e425ec004fad67d3"
+    },
+    {
+      "file": "collectibles.snbt",
+      "quests": 18,
+      "text_strings": 39,
+      "changed_strings": 39,
+      "sha256": "4fd4873991a4be84b4894e571e7f4414b61aacb305db236bfda88fe64bcee913"
+    },
+    {
+      "file": "collectibles_2.snbt",
+      "quests": 131,
+      "text_strings": 130,
+      "changed_strings": 95,
+      "sha256": "edb6a559037917f3c3b7ff0870cf5c061b93f247d247911032fed495f9cb1b61"
+    },
+    {
+      "file": "create.snbt",
+      "quests": 122,
+      "text_strings": 132,
+      "changed_strings": 132,
+      "sha256": "4432bae6f8eea06953a63d96dff6c59834f805e00e5c4fd480540535df7bf083"
+    },
+    {
+      "file": "d_the_art_of_transmogrification.snbt",
+      "quests": 3,
+      "text_strings": 17,
+      "changed_strings": 13,
+      "sha256": "d4f0440031c5df04d18f55fcf4c03bba2ecd29168c4968677f6546c5a4510df6"
+    },
+    {
+      "file": "deeper_and_darker.snbt",
+      "quests": 6,
+      "text_strings": 19,
+      "changed_strings": 19,
+      "sha256": "693349b1af951f6452c4a16b5930ef43fffc132665295d8a1bb6d406acc6d369"
+    },
+    {
+      "file": "dmastering_fatew.snbt",
+      "quests": 0,
+      "text_strings": 1,
+      "changed_strings": 1,
+      "sha256": "d2d479fc254af125251d89b46f3575bcebaa609f200c05c245265dff9c3d8cd4"
+    },
+    {
+      "file": "dplanets_and_space.snbt",
+      "quests": 91,
+      "text_strings": 173,
+      "changed_strings": 168,
+      "sha256": "05359253c828ab2f3327359c0bb482b84cebd631aca5b458c4959c39464f5ce7"
+    },
+    {
+      "file": "e_spell_books.snbt",
+      "quests": 15,
+      "text_strings": 108,
+      "changed_strings": 92,
+      "sha256": "47ad14800b94c518992840ea677955be8b1eaadc81547b55fa5bf30383494bdd"
+    },
+    {
+      "file": "eenchanting.snbt",
+      "quests": 36,
+      "text_strings": 147,
+      "changed_strings": 128,
+      "sha256": "328a101dc64a81dd3015ca85aa977559140af46bb4154c556dd75fbc08bbb74a"
+    },
+    {
+      "file": "einformation_7new_mechanics.snbt",
+      "quests": 88,
+      "text_strings": 658,
+      "changed_strings": 522,
+      "sha256": "a4c4439db518a136c3befbfe5f9f0c737fd45584bce76e1a7525ca0d495fd926"
+    },
+    {
+      "file": "elhasturian_era.snbt",
+      "quests": 28,
+      "text_strings": 241,
+      "changed_strings": 173,
+      "sha256": "52fbb91918e1b869af72d3d784b8725abad74898164063155034886f058f3127"
+    },
+    {
+      "file": "gadgets.snbt",
+      "quests": 36,
+      "text_strings": 32,
+      "changed_strings": 32,
+      "sha256": "3702a086e29c0f2a83e377d2fd44062ec9cfc491fc51a50c1130369946334c22"
+    },
+    {
+      "file": "gear_mariums_soulslike_weaponry.snbt",
+      "quests": 54,
+      "text_strings": 108,
+      "changed_strings": 108,
+      "sha256": "a91e780ffd998ad2dccc1af8a95b1a850a836e904f14e0a33d6da3bb04f09678"
+    },
+    {
+      "file": "getting_started.snbt",
+      "quests": 16,
+      "text_strings": 120,
+      "changed_strings": 90,
+      "sha256": "4acb041e5ee4e371fd6a768553bbef66114fc354067d2d2261570d2b2ea12fcf"
+    },
+    {
+      "file": "main_story.snbt",
+      "quests": 38,
+      "text_strings": 599,
+      "changed_strings": 366,
+      "sha256": "6655820c2afb861a1586b039846cf24c14709cc8ac0fb4d89e5e443925d56a81"
+    },
+    {
+      "file": "modern_industrialization.snbt",
+      "quests": 77,
+      "text_strings": 207,
+      "changed_strings": 163,
+      "sha256": "485f9925dfd880983131c241da19070fe810600c71b4eee057d77ac88b54e9b1"
+    },
+    {
+      "file": "powah.snbt",
+      "quests": 114,
+      "text_strings": 47,
+      "changed_strings": 47,
+      "sha256": "b76494b95a1683e51bb2a53a1a145e9c28518dba3fbb0fddd5d81b35cf6fa237"
+    },
+    {
+      "file": "reforging.snbt",
+      "quests": 6,
+      "text_strings": 101,
+      "changed_strings": 64,
+      "sha256": "d698aa8d6eb430102f18c4ec3787e41511b7a1ff09c1772d2a09593277f75094"
+    },
+    {
+      "file": "simply_swords.snbt",
+      "quests": 81,
+      "text_strings": 212,
+      "changed_strings": 201,
+      "sha256": "62eaaba9355f245b2679073c667d4b849b988ccb5ec910ecadf9b05a1852a397"
+    },
+    {
+      "file": "tech_reborn.snbt",
+      "quests": 127,
+      "text_strings": 123,
+      "changed_strings": 123,
+      "sha256": "f0a2df3f1d7a486ae38a8f62964acb347d4aa7116b4cdf97e63435aaeb2a7561"
+    },
+    {
+      "file": "the_bumblezone.snbt",
+      "quests": 35,
+      "text_strings": 92,
+      "changed_strings": 91,
+      "sha256": "45f0e86ea30f9a4b8fecdcc1a2fa3fc5107fda561537c2a7113d6244d6ea3b66"
+    },
+    {
+      "file": "the_nether.snbt",
+      "quests": 44,
+      "text_strings": 148,
+      "changed_strings": 129,
+      "sha256": "c03570aa701c771c16be641ce1f744c6255e429c5f48b03e91a3fd8c66e7aca9"
+    },
+    {
+      "file": "to_the_end.snbt",
+      "quests": 81,
+      "text_strings": 178,
+      "changed_strings": 176,
+      "sha256": "3be881fc8e354557c89fd2c00591366396c10b77ef2d86e40501f935405b5dce"
+    }
+  ],
+  "warnings": [],
+  "quest_count": 1778,
+  "text_string_count": 4579,
+  "changed_string_count": 3753,
+  "nonempty_text_string_count": 3855,
+  "checks": {
+    "snbt_parsing": true,
+    "all_nontext_data_preserved": true,
+    "formatting_code_sequence_preserved": true,
+    "url_values_preserved": true,
+    "numeric_values_preserved": true,
+    "rich_text_event_metadata_preserved": true,
+    "image_macros_preserved": true,
+    "no_translation_placeholders": true,
+    "minecraft_runtime_tested": false
+  },
+  "embedded_json_strings_checked": 7,
+  "technical_macros_checked": 53,
+  "source_archive_sha256": "7a77deb685ce1431cd65923c6316d97c5e28149309f75a7adcd67c1ece01aeb6"
+}

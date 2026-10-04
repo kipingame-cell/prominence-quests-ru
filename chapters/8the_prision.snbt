@@ -1,0 +1,641 @@
+{
+	autofocus_id: "6D2F2513F741BEBA"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "8the_prision"
+	group: "3E586F2160161EEA"
+	icon: "graveyard:dark_iron_bars"
+	id: "419EFD597601A50B"
+	images: [
+		{
+			height: 3.0d
+			image: "minecells:item/blood_sword"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependency: "7FA12D0EE258394E"
+			height: 2.5d
+			image: "minecells:item/boss_stem_cell"
+			rotation: 0.0d
+			width: 2.5d
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependency: "786169EB402AB151"
+			height: 1.5d
+			image: "minecells:item/conjunctivius_respawn_rune"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependency: "392849A6BB50F469"
+			height: 2.5d
+			image: "minecells:item/concierge_respawn_rune"
+			rotation: 0.0d
+			width: 2.5d
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "minecells:item/health_flask"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/assassins_dagger"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/big_chain"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/big_chain"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/big_chain"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			height: 1.2d
+			image: "minecells:block/crate"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.2d
+			image: "minecells:block/crate_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.2d
+			image: "minecells:block/crate"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 1.2d
+			image: "minecells:block/chain_pile_block"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 3.0d
+			image: "minecells:item/broadsword"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "minecells:item/explosive_bolt"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "minecells:item/monster_cell"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: -4.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6D2F2513F741BEBA"]
+			description: [
+				""
+				"{image:minecells:textures/gui/guidebook/images/prison.png width:100 height:100 align:center}"
+			]
+			id: "0D23A31DAF3866F4"
+			rewards: [{
+				count: 6
+				id: "4A4473CE89392149"
+				item: "minecells:health_flask"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Тюрьма - это первое из трех основных измерений, входящих в состав Minecells"
+			tasks: [{
+				dimension: "minecells:prison"
+				icon: "graveyard:dark_iron_bars"
+				id: "0E868C4F785876CA"
+				title: "Войдите в тюрьму"
+				type: "dimension"
+			}]
+			title: "&8Войдите в тюрьму"
+			x: 0.0d
+			y: 1.875d
+		}
+		{
+			dependencies: ["786169EB402AB151"]
+			id: "056835280827D016"
+			rewards: [
+				{
+					id: "2FCF73BFB5EB1746"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "2634DBDF6AD90B9B"
+					item: "minecells:sewer_calamari"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Появляется в &1Логове&r, которое можно найти после получения руны Виноградной &dлозы, &rчтобы нанести урон &dКонъюнктивиусу&r, необходимо сначала убить щупальца."
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: {
+					Count: 1
+					id: "minecells:tentacle"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60BB85E2901C9AFB"
+				title: "Победите Конъюнктивиуса"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&lБитва с боссом: &d&lКонъюнктивиус"
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			description: [
+				""
+				"{image:minecells:textures/gui/guidebook/images/promenade.png width:100 height:100 align:center}"
+			]
+			id: "3C8D91F2793CECAD"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "&7Можно найти, пройдя вглубь тюрьмы. &eРекомендуется взять с собой путеводный камень или карманную червоточину, чтобы вернуться домой."
+			tasks: [{
+				dimension: "minecells:promenade"
+				icon: "minecells:promenade_torch"
+				id: "3D4982DEF40E26A6"
+				title: "Посетите Тропу обречённых"
+				type: "dimension"
+			}]
+			title: "&7Войдите на &cТропу обречённых"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F0FA8C53795453D"]
+			id: "58E9FDE95BB414C8"
+			subtitle: "Клетки монстров выпадают из монстров в измерении &8Тюрьма &r."
+			tasks: [{
+				id: "5A6C4572411834AA"
+				item: "minecells:monster_cell"
+				type: "item"
+			}]
+			title: "Добудьте клетку монстра"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["58E9FDE95BB414C8"]
+			id: "364E9528AE5F1047"
+			subtitle: "Для изготовления некоторых видов оружия, которые можно изготовить в Cell Crafter, требуется сталь, пропитанная клетками. Имейте это в виду."
+			tasks: [{
+				id: "492AFFEA634E0376"
+				item: "minecells:cell_infused_steel"
+				type: "item"
+			}]
+			title: "Создайте &bнасыщенную клетками &rсталь"
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			description: ["&eМожно создать в кузнице клеток из внутренностей и клеток монстров."]
+			id: "447E7AA3CB192FE4"
+			rewards: [{
+				count: 10
+				id: "0A6ADFFF5197516C"
+				item: "minecells:health_flask"
+				type: "item"
+			}]
+			subtitle: "Фляга здоровья - это действительно полезный предмет, который восстанавливает вам 10% вашего максимального запаса здоровья и обеспечивает регенерацию на несколько секунд."
+			tasks: [{
+				icon: "minecells:health_flask"
+				id: "2D109EBD7B56015A"
+				item: "minecells:health_flask"
+				title: "Быстрое лечение!"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&7Портал в Верхний мир - это ваш вход в тюрьму, одно из 3 измерений, содержащее 2 босса и тонну добычи!"
+				""
+				"&7Благодаря большому количеству сундуков, он отлично подходит для поиска ресурсов, Simply Swords и многого другого!"
+			]
+			id: "69D69BD1D3500C6A"
+			rewards: [{
+				id: "2FE408F561BBBECB"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.2d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecells:prison_doorway"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				id: "196E583EF3C77C8B"
+				structure: "minecells:overworld_portal"
+				title: "Найдите портал в Верхний мир"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69D69BD1D3500C6A"]
+			description: [
+				"&7Портал, который вы только что нашли, также позволяет &eвыбрать, &r&7в какое измерение вы хотите попасть. В конце многих из них есть телепорт, который возвращает вас в Потусторонний &eмир. &r"
+				""
+				"&7Вы можете открыть портал либо для &eвсех, &r&7либо &eтолько для себя&r. &7Все будут находиться в одном Измерении, если вы решите поделиться им. &eЛут предоставляется каждому игроку, &r&7а мобы появляются в зависимости от того, сколько игроков вы приведете с собой."
+			]
+			icon: {
+				Count: 1
+				id: "minecells:prison_doorway"
+				tag: {
+					BlockEntityTag: { }
+				}
+			}
+			id: "6D2F2513F741BEBA"
+			rewards: [{
+				id: "18F543067E94FFB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20CE52F5F638929B"
+				title: "Порталы"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["52A09B92E3A16003"]
+			description: [
+				"&7Чтобы получить руну Виноградной лозы, вы должны победить &eэлитного врага.&r"
+				""
+				"&7Победите врага и завладейте руной."
+			]
+			id: "32AD907B1C467139"
+			rewards: [
+				{
+					id: "7876D2FF42680DBE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					advancement: "minecells:vine_rune"
+					auto: "enabled"
+					criterion: ""
+					id: "3249D08403A56801"
+					type: "advancement"
+				}
+			]
+			tasks: [{
+				id: "0409EF76ACF617D8"
+				item: {
+					Count: 1
+					id: "minecells:vine_rune"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Получите руну лозы"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C8D91F2793CECAD"]
+			description: [
+				"&7Найти руну Виноградной лозы очень просто. &eПроверьте, нет ли Руны Виноградной лозы на указателях, &r&7разбросанных по дорожкам. Они приведут вас прямо к Руне Виноградной лозы и Крепостным валам."
+				""
+				"&7&nДля продолжения вам понадобится руна лозы.&r"
+			]
+			icon: "minecells:arrow_sign"
+			id: "52A09B92E3A16003"
+			rewards: [{
+				id: "47452E5B3A60781E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43B67FFBA352B18B"
+				title: "Найдите руну лозы"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52A09B92E3A16003"]
+			description: [
+				"&7Примените руну лозы к лозе. Ищите её по тем же указателям, которые привели вас к руне."
+				""
+				"&7Просто примените руну лозы к блоку лозы, расположенному в конце."
+				""
+				""
+				"{image:minecells:textures/gui/guidebook/images/runic_vine_plant.png width:100 height:100 align:center}"
+			]
+			id: "19A13E818C2E97D7"
+			rewards: [{
+				id: "06321FC0D60A986A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "minecells:vine_rune"
+				criterion: ""
+				id: "6ABACEEF3F0409D0"
+				type: "advancement"
+			}]
+			title: "Джек и бобовый стебель"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19A13E818C2E97D7"]
+			description: [
+				"&7Cell Crafter можно использовать для создания оружия, зелий, метательных предметов и даже некоторых украшений для вашей базы."
+				""
+				"&7Имейте в виду, что многие виды оружия открываются с помощью определенных этапов, таких как убийство врага определенное количество раз или посещение определенного измерения."
+				""
+				""
+				"&7&nПримечание: &r&3Чтобы завершить этот квест, вам нужно будет найти Некрафтируемого создателя клеток и взаимодействовать с ним, чтобы завершить этот квест.&r"
+			]
+			id: "3F0FA8C53795453D"
+			rewards: [{
+				id: "2C8A86386DF30D96"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Вы тоже можете их изготовить!"
+			tasks: [{
+				icon: "minecells:cell_crafter"
+				id: "65448170569AF6B8"
+				observe_type: 0
+				timer: 0L
+				title: "Найдите кузницу клеток в конце Тропы обречённых"
+				to_observe: "minecells:unbreakable_cell_crafter"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F0FA8C53795453D"]
+			description: [
+				"&7 Крепостной вал - это последний уровень перед консьержем. Крепостные стены находятся высоко в небе, &e означает, что падение вниз не убьет вас, но восстановит вас в правах &r&7. Отсюда вы можете вернуться в Верхний мир, чтобы продолжить путь. &e Возьмите с собой блоки и, возможно, планер.&r"
+				""
+				""
+				"{image:minecells:textures/gui/guidebook/images/ramparts.png width:100 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "minecells:ramparts_doorway"
+				tag: {
+					BlockEntityTag: { }
+				}
+			}
+			id: "7FA12D0EE258394E"
+			rewards: [
+				{
+					id: "36A58D26A98BFA3D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 12
+					id: "55B57F3317E4C4F4"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecells:ramparts"
+				icon: {
+					Count: 1
+					id: "minecells:ramparts_doorway"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				id: "7545EF04441CAA9D"
+				title: "Посетите крепостные валы"
+				type: "biome"
+			}]
+			title: "Посетите крепостные валы"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7FA12D0EE258394E"]
+			description: ["&7Чтобы добраться до Привратника, найдите портал на Чёрный мост."]
+			icon: "minecells:hardstone"
+			id: "5D643BB63647DB8A"
+			tasks: [{
+				id: "57CDDC8701890BD7"
+				type: "checkmark"
+			}]
+			title: "Путь к Привратнику"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5D643BB63647DB8A"]
+			description: ["&7В этом Измерении не так уж много интересного. Только мост и кое-что, что можно убить. Вопрос в том, кто это - ты или он?"]
+			icon: {
+				Count: 1
+				id: "minecells:black_bridge_doorway"
+				tag: {
+					BlockEntityTag: { }
+				}
+			}
+			id: "392849A6BB50F469"
+			rewards: [
+				{
+					count: 6
+					id: "2F8795B2E69CDA3E"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					id: "704A8F3D54F2757A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				biome: "minecells:black_bridge"
+				icon: {
+					Count: 1
+					id: "minecells:black_bridge_doorway"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				id: "51DE4059A6FD8FC3"
+				title: "Посетите Чёрный мост"
+				type: "biome"
+			}]
+			title: "Посетите Чёрный мост и сразитесь с Привратником"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["392849A6BB50F469"]
+			id: "289AE54974A0835D"
+			rewards: [
+				{
+					advancement: "minecells:concierge"
+					auto: "enabled"
+					criterion: ""
+					id: "70D2D628909C7A56"
+					title: "Раздавлен!"
+					type: "advancement"
+				}
+				{
+					id: "658AB9CBDC52C5BB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 7
+					id: "09EA426333980BDB"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecells:concierge"
+				icon: "minecells:concierge_respawn_rune"
+				id: "02FB4335C4239BE5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Победите Привратника"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7FA12D0EE258394E"]
+			description: [
+				"&7Нестерпимая гробница — место, где заточены худшие из худших."
+				"{image:minecells:textures/gui/guidebook/images/insufferable_crypt.png width:100 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "minecells:insufferable_crypt_doorway"
+				tag: {
+					BlockEntityTag: { }
+				}
+			}
+			id: "786169EB402AB151"
+			rewards: [{
+				id: "52D48EFD2E3D89A8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				biome: "minecells:insufferable_crypt"
+				icon: {
+					Count: 1
+					id: "minecells:insufferable_crypt_doorway"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				id: "4FA59940B75D3D3D"
+				title: "Посетите Нестерпимую гробницу"
+				type: "biome"
+			}]
+			title: "Посетите Нестерпимую гробницу"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3C8D91F2793CECAD"]
+			description: ["&7Нравятся лифты из Minecells? Вы можете создать их сами!"]
+			id: "033D13B0BF22DB3D"
+			rewards: [{
+				id: "0875AA681088B43A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 2L
+				id: "271203E170919B3C"
+				item: { Count: 2, id: "minecells:elevator_mechanism" }
+				title: "Создайте два механизма лифта"
+				type: "item"
+			}]
+			title: "&7Создание лифта"
+			x: -2.0d
+			y: -1.0d
+		}
+	]
+	title: " &7Minecells"
+}

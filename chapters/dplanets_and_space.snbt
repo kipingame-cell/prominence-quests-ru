@@ -1,0 +1,2471 @@
+{
+	autofocus_id: "379855C491135950"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dplanets_and_space"
+	group: "3E586F2160161EEA"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
+	id: "0992DF8C1CFFED37"
+	images: [
+		{
+			dependency: "747BCE95831AF745"
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/overlay/rocket.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependency: "646AB33B769E10F0"
+			height: 2.0d
+			image: "ad_astra:textures/environment/moon.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -20.0d
+		}
+		{
+			dependency: "20D12A4B9B31C804"
+			height: 3.0d
+			image: "ad_astra:textures/environment/mars.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.0d
+			y: -33.0d
+		}
+		{
+			dependency: "142DA24413D40E4E"
+			height: 2.0d
+			image: "ad_astra:textures/environment/mercury.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: -46.5d
+		}
+		{
+			dependency: "142DA24413D40E4E"
+			height: 5.0d
+			image: "ad_astra:textures/environment/venus.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.0d
+			y: -46.5d
+		}
+		{
+			dependency: "60526E15B6F891CB"
+			height: 3.0d
+			image: "ad_astra:textures/environment/earth.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependency: "142DA24413D40E4E"
+			height: 6.0d
+			image: "ad_astra:textures/gui/sprites/sun.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0d
+			y: -50.5d
+		}
+		{
+			dependency: "37B1A85BBE83CE80"
+			height: 3.0d
+			image: "ad_astra:textures/gui/sprites/space_station.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: -19.5d
+		}
+		{
+			dependency: "78329681F2A34FE3"
+			height: 3.0d
+			image: "ad_astra:textures/environment/glacio.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.0d
+			y: -59.5d
+		}
+		{
+			dependency: "78329681F2A34FE3"
+			height: 6.0d
+			image: "ad_astra:textures/environment/vicinus.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.0d
+			y: -65.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["42FC53378D56597B"]
+			description: ["&7Чтобы накачать кислород в кислородные баллоны, вам нужно будет сделать загрузчик кислорода (или очень сильно подуть в кислородный баллон)."]
+			id: "53B4836305AC0168"
+			rewards: [
+				{
+					id: "02CED60C849C365F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "5823B328FF492CD7"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B5B713C113FAAAF"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["747BCE95831AF745"]
+			description: ["&7Космос - очень опасное место. Чтобы чувствовать себя в безопасности и иметь возможность дышать, вам понадобится скафандр. Позже этот скафандр можно будет модернизировать, добавив в него реактивную двигательную установку, это удобно!"]
+			id: "3C29BA7613157D20"
+			rewards: [{
+				id: "319BC89EC3932E07"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "04FD00781213A367"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "449C74BB1588AC9C"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37C38A182392F0EB"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C3F34B3C8C203F7"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Пространство для выживания"
+			x: -4.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"48B79CB6ECB96D14"
+				"2012F2D2C2F62460"
+				"3C29BA7613157D20"
+			]
+			description: ["&7Поздравляю с созданием вашей первой ракеты! Эта штука доставит вас на орбиту и, если захотите, на Луну. Орбита есть у любой планеты, так что вы можете построить космическую станцию на любой из них. Чтобы построить космическую станцию, просто возьмите с собой достаточно стали, страуса или дешевого металла. Разным космическим станциям на разных планетах требуется разное количество ресурсов."]
+			id: "646AB33B769E10F0"
+			rewards: [{
+				id: "0E754DF514384978"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "32DD5CC527CDD57E"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&2Ракеты 1 уровня"
+			x: -3.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["747BCE95831AF745"]
+			description: ["&7Этот аккуратный и удобный помощник может заправлять ракеты топливом, так что вам не придется этого делать!"]
+			id: "21BC243BF1FABADD"
+			rewards: [
+				{
+					id: "43ACFC3BF5898CAB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "66C46CCA88A036A8"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Зачем делать это самому?"
+			tasks: [{
+				id: "65903124F155A443"
+				item: "ad_astra_giselle_addon:fuel_loader"
+				type: "item"
+			}]
+			title: "Загрузчик топлива"
+			x: -5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["747BCE95831AF745"]
+			id: "2012F2D2C2F62460"
+			tasks: [{
+				id: "268F42C7D2748595"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			title: "Стартовая площадка"
+			x: -1.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["1ACCF86D17FF8A56"]
+			description: ["&7Для изготовления ракет используется верстак Nasa Workbench. Во всех ракетах используется одинаковая рецептура, единственное, что меняется, - это уровень материала."]
+			id: "367AFF3976F8FB3B"
+			rewards: [{
+				id: "42F2D5F398173BB2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Все еще ищу сотрудника Наса"
+			tasks: [{
+				id: "2E2CB531EDBD4424"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			title: "Рабочий стол Наса"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4C291EE69F12BEE7"]
+			description: ["&7Вам понадобится масса всего этого. Они используются практически во всех рецептах."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "1ACCF86D17FF8A56"
+			rewards: [{
+				id: "24AA42076C9FD6C4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Крепкий"
+			tasks: [{
+				count: 26L
+				icon: "techreborn:steel_plate"
+				id: "7694095AFE66D477"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:steel_plates"
+					}
+				}
+				title: "Любой # c:steel_plates"
+				type: "item"
+			}]
+			title: "Изготавливать стальные пластины"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E9F5146EA3F505F"]
+			description: ["&7Ну, ты ведь уже здесь, верно?"]
+			id: "60526E15B6F891CB"
+			rewards: [{
+				id: "1C105076D7FCAB36"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "ad_astra:earth_globe"
+				id: "392449710877E412"
+				title: "Посетите Верхний мир!"
+				type: "dimension"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60526E15B6F891CB"]
+			description: ["&7Найдите земной шар"]
+			id: "64A24BA1CE6EBC76"
+			rewards: [{
+				id: "3D63815DFC6F744D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E00E81A834EF2CF"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60526E15B6F891CB"]
+			description: ["&7Ах, нефть, эта липкая жидкость используется для производства многих видов топлива, вам понадобится ее много, чтобы добраться до всех планет."]
+			id: "7A1306391AFACB4A"
+			rewards: [
+				{
+					count: 4
+					id: "655E278671FAB745"
+					item: "ad_astra:oil_bucket"
+					type: "item"
+				}
+				{
+					id: "630648879E8D6C93"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: "techreborn:oil_bucket"
+				id: "1506C2F7565E3AFA"
+				structure: "ad_astra:oil_well"
+				title: "Найдите нефтяную скважину"
+				type: "structure"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60526E15B6F891CB"]
+			hide_until_deps_complete: true
+			id: "379855C491135950"
+			rewards: [{
+				id: "784A1C36A7369B9E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4AC29B83C61F5822"
+				title: "К Звездам!"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["379855C491135950"]
+			description: ["&7Существует множество способов сжатия чугуна и стали. Лучший из них - использовать компрессор Tech Reborn, так как вы можете разогнать его до невероятных скоростей."]
+			hide_until_deps_complete: true
+			id: "4C291EE69F12BEE7"
+			rewards: [
+				{
+					count: 3
+					id: "45BE8440E7625432"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "06CFE60A965AED38"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "15E2B76E5363BB92"
+					item: "ad_astra:compressor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "18AEE6C9C88E5AE0"
+					item: "techreborn:compressor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "236534018A93FE47"
+					item: {
+						Count: 1
+						id: "modern_industrialization:iron_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Искусство сжатия"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72493396FD36826B"]
+			icon: "ad_astra:steel_ingot"
+			id: "5619571A816F5F74"
+			rewards: [{
+				id: "2B1BCDFB6FBC6821"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 64L
+				icon: "techreborn:steel_ingot"
+				id: "18E1AE5433F8808D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ad_astra:steel_ingots"
+					}
+				}
+				title: "Получение стали"
+				type: "item"
+			}]
+			title: "Получите свою первую сталь!"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1ACCF86D17FF8A56"]
+			description: ["&7Как и его более толстый аналог, они являются важными компонентами вашего прогресса."]
+			hide_until_deps_complete: true
+			icon: "modern_industrialization:steel_rod"
+			id: "236CCB0ADACB8818"
+			rewards: [{
+				id: "07AA2EA54625CDF6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Вставьте стальную трубу, ударяющуюся о землю со звуковым эффектом"
+			tasks: [{
+				count: 16L
+				icon: "modern_industrialization:steel_rod"
+				id: "4A5FDF7D97496E9E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ad_astra:steel_rods"
+					}
+				}
+				title: "Изготавливайте стальные стержни"
+				type: "item"
+			}]
+			title: "Изготавливайте стальные стержни"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4C291EE69F12BEE7"]
+			description: ["&7Сталь можно получить, выплавляя чугун в доменной печи. Есть и другие способы, но этот способ самый лучший, поскольку он дешевый и простой."]
+			id: "72493396FD36826B"
+			rewards: [{
+				id: "75A757016DF6E33D"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30255FFE03A75A3B"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "Получение стали"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["379855C491135950"]
+			description: ["&7Получение электроэнергии может оказаться непростой задачей. Начните с угольного генератора."]
+			id: "72CB4FBC4005E9EE"
+			rewards: [
+				{
+					count: 16
+					id: "3D6DF5490F8C579C"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "79104D5D94F0B16F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1C480C0A6DFAB253"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			title: "Получение власти"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["379855C491135950"]
+			description: ["&7Машины Ad Astra работают от любого источника питания, который может быть получен от любого другого производителя. Вам не нужно полагаться на источник питания от Ad Astra. Лучше всего использовать кабели от Tech Reborn, предпочтительно их стекловолоконные кабели "]
+			icon: "create:electron_tube"
+			id: "52DA21D7B8633C9F"
+			rewards: [{
+				id: "3C4DF775F5F06A5A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "377F10C7C385C239"
+					item: "ad_astra:steel_cable"
+					type: "item"
+				}
+				{
+					id: "780F5FB4569F9903"
+					type: "checkmark"
+				}
+			]
+			title: "Питание Ad Astra машин"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1ACCF86D17FF8A56"]
+			description: ["&7Чтобы использовать все то масло, которое у вас есть, вам нужно будет произвести переработку топлива. Убедитесь, что его достаточно много, так как оно понадобится вам позже."]
+			id: "25C25B9F2A214DF5"
+			rewards: [
+				{
+					count: 2
+					id: "380B3026FE72F5F6"
+					item: "ad_astra:oil_bucket"
+					type: "item"
+				}
+				{
+					id: "2F3A928377DBD680"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Чертовы цены на бензин!"
+			tasks: [{
+				id: "2DED8306653AEEB9"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			title: "Завод по переработке топлива"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4C291EE69F12BEE7"]
+			icon: "create:iron_sheet"
+			id: "783EBE7797C50794"
+			rewards: [{
+				id: "2E158FDA88E91C66"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "5A3CF5D9FDED13CB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ad_astra:iron_plates"
+					}
+				}
+				title: "Получение железных пластин"
+				type: "item"
+			}]
+			title: "Ваши первые железные пластины"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["783EBE7797C50794"]
+			icon: "createaddition:iron_rod"
+			id: "23AAC569624355D8"
+			rewards: [{
+				id: "4194DA247721BCC4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 20L
+				icon: "modern_industrialization:stainless_steel_rod"
+				id: "5CDA10DF50FC8C52"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ad_astra:iron_rods"
+					}
+				}
+				title: "Изготавливайте железные прутья"
+				type: "item"
+			}]
+			title: "Изготовьте свои первые железные прутья"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23AAC569624355D8"]
+			description: ["&7Эти штуки удерживают газы, но не так хороши для жидкостей."]
+			id: "1DC44922FC0C2FB0"
+			rewards: [{
+				id: "641A34AFF38225E6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 2L
+				id: "38AEB95C060AD73F"
+				item: {
+					Count: 1
+					id: "ad_astra:gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Крафт 2 газовых баллона"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["236CCB0ADACB8818"]
+			id: "7E128EA76720F56B"
+			tasks: [{
+				id: "1A538F73CE8525D7"
+				item: "ad_astra:oxygen_gear"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["23AAC569624355D8"]
+			description: ["&7Проблема с другими планетами в том, что на них нет кислорода, я знаю, шокер - вот почему вам понадобятся кислородные баллоны, они снабжают вас необходимым кислородом, чтобы вы могли исследовать планеты."]
+			id: "540BFBB8E54C128D"
+			rewards: [{
+				id: "33FF7D4A4B90DB94"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 5L
+				id: "4982D08D1D135178"
+				item: {
+					Count: 5
+					id: "ad_astra_giselle_addon:oxygen_can"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Кислород"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1ACCF86D17FF8A56"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "747BCE95831AF745"
+			rewards: [{
+				id: "3C5C306C1D0930A1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5222BD82C0D3EF54"
+				title: "Космическая программа \"Рожденный пламенем\""
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["747BCE95831AF745"]
+			id: "48B79CB6ECB96D14"
+			rewards: [
+				{
+					id: "0D7E785F4E65419C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "7141900167BFF8FD"
+					item: "techreborn:steel_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Сувенир из дома"
+			tasks: [{
+				count: 5L
+				id: "48ACA9BE0E31106A"
+				item: {
+					Count: 5
+					id: "ad_astra_giselle_addon:oxygen_can"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 40500L
+								Fluid: "ad_astra:oxygen"
+							}]
+						}
+					}
+				}
+				title: "Изготовьте 5 кислородных баллончиков и наполните их кислородом"
+				type: "item"
+			}]
+			title: "Нужен кислород!"
+			x: -3.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["236CCB0ADACB8818"]
+			description: ["&7Вентиляторы станут более полезными, когда вы впервые посетите свое небесное тело. Пока достаточно двух из них."]
+			id: "42FC53378D56597B"
+			rewards: [
+				{
+					count: 16
+					id: "643938B82F7453E3"
+					item: "techreborn:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "6B65ED56073EA498"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "1270B7111C5E8662"
+				item: { Count: 2, id: "ad_astra:fan" }
+				type: "item"
+			}]
+			title: "Только для фанатов"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["236CCB0ADACB8818"]
+			description: ["&7Рама двигателя является основным компонентом стального двигателя, поэтому обязательно сделайте пару рам двигателя."]
+			id: "410B3889B1ABF0C6"
+			rewards: [{
+				id: "6AF9BF9EA696CEAB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Врум Врум"
+			tasks: [{
+				id: "31504DE6CA2FCB63"
+				item: "ad_astra:engine_frame"
+				type: "item"
+			}]
+			title: "Рама двигателя"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["410B3889B1ABF0C6"]
+			id: "1C70A158DDD942BC"
+			rewards: [{
+				id: "06E5AB4FF84FAD1F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Сколько лошадиных сил?"
+			tasks: [{
+				id: "64DCECDF1E9081CB"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			title: "Стальной двигатель"
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1ACCF86D17FF8A56"]
+			description: ["&7Для каждой ракеты требуется 4 стабилизатора - получается 16 стабилизаторов для всех 4 уровней ракет."]
+			id: "24B07E71BD4FEF9E"
+			rewards: [{
+				id: "32FB5AC1B480E6AB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 4L
+				id: "3AB50FB5030C6DC4"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			title: "Плавники ракеты"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1ACCF86D17FF8A56"]
+			description: ["&7Этот компонент нужен для всех ракет. Всего потребуется 4 штуки — по одной для ракеты каждого уровня."]
+			id: "255F7DB992A1A107"
+			rewards: [{
+				id: "691807D59D828758"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "29AB2B03C906C972"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			title: "Как Рудольф, но немного жестче"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["747BCE95831AF745"]
+			description: ["&7Хранение большого количества газа может вызвать неудобства, поскольку для этого потребуется несколько емкостей. Этот продукт решает эту проблему."]
+			id: "5490F24ED175C3FC"
+			rewards: [{
+				id: "1E14948C108BF0F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "58868BDC43DD1C6E"
+				item: {
+					Count: 1
+					id: "ad_astra:large_gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["747BCE95831AF745"]
+			description: ["&7Хотя мы живем в мире, полном технологий, магия также обладает силой. Нет необходимости каждый раз летать, если вы можете просто взять с собой путеводный камень."]
+			id: "75C444F1E41D68C0"
+			rewards: [{
+				id: "13A41FFA0971B79B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Никаких ракет не нужно!"
+			tasks: [{
+				icon: "fwaystones:waystone"
+				id: "53B5FD3381A9917F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "fwaystones:waystones"
+					}
+				}
+				title: "Создайте любой путевой камень"
+				type: "item"
+			}]
+			title: "Хождение взад и вперед"
+			x: -6.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["747BCE95831AF745"]
+			description: ["&7Если ты хочешь быть первым, кто полетит на Луну, ты также должен быть тем, кто принесет флаг. Иначе тебе никто не поверит. "]
+			id: "7D60EFCB85D1FEEE"
+			rewards: [{
+				id: "76612CCA7C937B02"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "06BB668973ADFF6C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ad_astra:flags"
+					}
+				}
+				title: "Создайте флаг любого цвета!"
+				type: "item"
+			}]
+			title: "Звезды были созданы для того, чтобы мы их завоевывали."
+			x: 0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["646AB33B769E10F0"]
+			description: ["&7Так было всегда."]
+			icon: "ad_astra:moon_globe"
+			id: "0F91CAABA5D00AF7"
+			rewards: [
+				{
+					id: "5BF85E96B72FE9FB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2911B590FF9CC37B"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 40500L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "458DF69746092E5A"
+					item: "ad_astra:cheese"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "Это все сыр?"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "2DED2E9C85EDB356"
+				title: "Побывать на Луне"
+				type: "dimension"
+			}]
+			title: "&4На Луну!"
+			x: -3.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["0F91CAABA5D00AF7"]
+			icon: "croptopia:starfruit"
+			id: "24B800C9027024F1"
+			rewards: [{
+				id: "7BCFE34C9F393AE2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "ad_astra:star_crawler"
+				icon: "croptopia:starfruit"
+				id: "2147CF75AA0636EE"
+				title: "Убивайте звездных ползунов"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Убивающие звезды"
+			x: 0.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0F91CAABA5D00AF7"]
+			description: ["&7Так же, как и жители Верхнего мира, этих существ, должно быть, поразило что-то вроде чумы. Эта \"Инфекция\" кажется немного более жуткой по своей природе, поэтому лучше не подходить близко и уничтожать их на расстоянии."]
+			icon: {
+				Count: 1
+				id: "ae2:fluix_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6A1D8888B9E91084"
+			rewards: [
+				{
+					id: "08167622637EF8F3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "705A8DD652385263"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "ad_astra:corrupted_lunarian"
+				icon: {
+					Count: 1
+					id: "ae2:fluix_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4517337950A5799C"
+				title: "Убивайте развращенных лунатиков"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Убивайте развращенных лунатиков"
+			x: -0.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0F91CAABA5D00AF7"]
+			description: ["&7Вот доказательство того, что сыр существует на Луне! И они назвали тебя лунатиком..."]
+			icon: "ad_astra:moon_cheese_ore"
+			id: "3AA20BECA0A67EFF"
+			rewards: [
+				{
+					count: 8
+					id: "2097EA20B3FC96C9"
+					item: "expandeddelight:mac_and_cheese"
+					type: "item"
+				}
+				{
+					id: "3750FF614F634D6A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: "ad_astra:cheese"
+				id: "700D04774BD6826A"
+				observe_type: 0
+				timer: 0L
+				title: "Найти сыр"
+				to_observe: "ad_astra:moon_cheese_ore"
+				type: "observation"
+			}]
+			title: "Ммммм Сыр"
+			x: -1.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["0F91CAABA5D00AF7"]
+			description: ["&7Дэш можно найти только на Луне. Это важнейший ресурс для создания ракет 2 уровня."]
+			id: "73CD8E75D73EBF77"
+			rewards: [
+				{
+					count: 16
+					id: "7A645543BBF4B15B"
+					item: "ad_astra:raw_desh"
+					type: "item"
+				}
+				{
+					id: "15AD9092D81AAF2F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "60EB5F84E05D899F"
+				item: "ad_astra:raw_desh"
+				type: "item"
+			}]
+			title: "Дэш"
+			x: -3.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["73CD8E75D73EBF77"]
+			id: "6A4B8417878318BC"
+			rewards: [
+				{
+					count: 32
+					id: "16E0815F33A128BE"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+				{
+					id: "14600BDBF5D6D3D0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 16L
+				id: "1108379A23291111"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "Дешевые слитки"
+			x: -3.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["6A4B8417878318BC"]
+			id: "65C105AC2FC701F7"
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "3B4F701AA320C1E3"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			title: "Тарелки Desh"
+			x: -3.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["65C105AC2FC701F7"]
+			id: "47E03CADA2BB821D"
+			rewards: [{
+				id: "031E7B664D59F1F8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "35915CDA9D450E9C"
+				item: "ad_astra:desh_cable"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -26.0d
+		}
+		{
+			dependencies: ["783EBE7797C50794"]
+			description: [
+				"&7Это мой гаечный ключ. Таких много, но этот - мой."
+				""
+				"&7Мой гаечный ключ - мой лучший друг. Это моя жизнь. Я должен управлять им, как должен управлять своей жизнью."
+				""
+				"&7Без меня мой гаечный ключ бесполезен. Без моего гаечного ключа я бесполезен. Я должен использовать свой гаечный ключ по назначению. Я должен починить соединения, пока они не вызвали сбой. "
+				""
+				"&7Мы с моим гаечным ключом знаем, что в технологическом прогрессе важны не машины, которые мы создаем, не шум от них и не дым, который они производят. Мы знаем, что главное - эффективность."
+				""
+				"&7Мой ключ рожден из пламени, как и я сам рожден из пламени, потому что это моя жизнь. Таким образом, я буду учиться этому как брат. Я изучу его слабые места, его силу, его детали, принадлежности, металл и размеры, я всегда буду оберегать его от разрушительных воздействий погоды и повреждений, как я всегда буду оберегать свои ноги, руки, глаза и сердце от повреждений. Я буду держать свой гаечный ключ в чистоте и наготове. Мы станем частью друг друга. "
+				""
+				"&7Перед С'Келлаком я клянусь в этом. Мой гаечный ключ и я - защитники Вааза. Мы хозяева наших машин. Мы - спасители моего технического прогресса."
+			]
+			id: "5CB39BB4679C0166"
+			rewards: [{
+				id: "1B866EA7EEFE4E65"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5467000F16B416E7"
+				item: "ad_astra:wrench"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1ACCF86D17FF8A56"]
+			description: ["&7Это радио действительно может воспроизводить живую музыку, отлично подходящую для создания атмосферы или вечеринки!"]
+			id: "4384A653D6DB590A"
+			rewards: [{
+				id: "0D06FFFD97D0E449"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A2D3006B35555B4"
+				item: "ad_astra:radio"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65C105AC2FC701F7"]
+			id: "650CCA53EE940C10"
+			rewards: [
+				{
+					count: 16
+					id: "3266D6E4CD06F0B3"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+				{
+					id: "4088162D6AF2A362"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "72D3A7FFC85270F7"
+				item: { Count: 6, id: "ad_astra:desh_block" }
+				type: "item"
+			}]
+			title: "Блоки Desh"
+			x: -1.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["65C105AC2FC701F7"]
+			id: "2E113339DCE16411"
+			rewards: [
+				{
+					id: "730EA7E14F97806B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "0CBE0B2337C62194"
+					item: "ad_astra:desh_plate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "4DA87EC551731798"
+				item: { Count: 2, id: "ad_astra:desh_tank" }
+				type: "item"
+			}]
+			title: "Резервуары Desh"
+			x: -5.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["65C105AC2FC701F7"]
+			id: "38126792AD108DF5"
+			rewards: [
+				{
+					id: "753ADFCFDD690EC7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "571FC344012931CE"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46A3C3F06F5E7D5D"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -27.5d
+		}
+		{
+			dependencies: [
+				"650CCA53EE940C10"
+				"2E113339DCE16411"
+				"38126792AD108DF5"
+			]
+			id: "20D12A4B9B31C804"
+			tasks: [{
+				id: "61828AE256D91F9B"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&3Ракеты 2 уровня"
+			x: -3.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["20D12A4B9B31C804"]
+			icon: "ad_astra:mars_globe"
+			id: "411898A3561A0A8F"
+			rewards: [{
+				id: "5C0CAF5DE201A461"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "none"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "63E4CA6FFE330CD3"
+				title: "Посетите красную планету"
+				type: "dimension"
+			}]
+			title: "&5Лети на Марс!"
+			x: -3.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["3540E0658729A07A"]
+			id: "0A32BF090AAFB93F"
+			rewards: [{
+				id: "2EF887080DE0F6CB"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "5F52A70315BC389A"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["0F91CAABA5D00AF7"]
+			id: "4A2DCAF3D60EB698"
+			rewards: [{
+				id: "65B2C018D950AED0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: "ad_astra:glowing_iron_pillar"
+				id: "3C9D6AE758C51C22"
+				structure: "ad_astra:lunar_tower"
+				title: "Посетите Лунную башню"
+				type: "structure"
+			}]
+			title: "Посетите Лунную башню"
+			x: -4.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["0F91CAABA5D00AF7"]
+			id: "3C54F06A2501B7BD"
+			rewards: [
+				{
+					id: "488837E0BC824B28"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "38D1C4C0B1C39BAD"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "И вы думали, что их голова не может стать больше"
+			tasks: [{
+				icon: "artifacts:villager_hat"
+				id: "6A5143BED5345B93"
+				structure: "ad_astra:lunarian_village"
+				title: "Посетите лунную деревню"
+				type: "structure"
+			}]
+			title: "Посетите лунную деревню"
+			x: -5.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0F91CAABA5D00AF7"]
+			icon: "minecraft:spawner"
+			id: "27233F50176441EC"
+			rewards: [{
+				id: "2C56E8E705B61218"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: "minecraft:spawner"
+				id: "3C5F5A32D2CACBD6"
+				structure: "ad_astra:moon_dungeon"
+				title: "Найдите Лунное подземелье"
+				type: "structure"
+			}]
+			title: "Найди лунное подземелье!"
+			x: -6.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["27233F50176441EC"]
+			id: "25B79B5021A75BC3"
+			tasks: [{
+				id: "78B53E1347D250C2"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["411898A3561A0A8F"]
+			id: "500B0623DD324A4D"
+			rewards: [{
+				id: "291AF9740B0C5507"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Посетите ледяные шапки на Марсе"
+			tasks: [{
+				biome: "ad_astra:martian_polar_caps"
+				icon: "promenade:snowy_spruce_leaves"
+				id: "545D49B974B796F8"
+				title: "Вода на Марсе?"
+				type: "biome"
+			}]
+			x: -0.5d
+			y: -35.0d
+		}
+		{
+			dependencies: ["411898A3561A0A8F"]
+			id: "52C714E4AB6C6698"
+			rewards: [{
+				id: "4CEA2D3327E69C66"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				biome: "ad_astra:martian_canyon_creek"
+				icon: "ad_astra:mars_stone"
+				id: "31EB2A083B3E5A44"
+				title: "Посетите каньон Крик"
+				type: "biome"
+			}]
+			title: "Посетите каньон на Марсе"
+			x: -5.5d
+			y: -35.0d
+		}
+		{
+			dependencies: ["411898A3561A0A8F"]
+			id: "3F5A19D264E83DAC"
+			rewards: [{
+				id: "08CBDE6A83412C0B"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				entity: "ad_astra:martian_raptor"
+				icon: "artifacts:digging_claws"
+				id: "15B82A2A548A876F"
+				title: "Убивайте марсианских хищников"
+				type: "kill"
+				value: 100L
+			}]
+			x: -0.5d
+			y: -32.5d
+		}
+		{
+			dependencies: ["411898A3561A0A8F"]
+			id: "0885FE2B6216B8B6"
+			rewards: [{
+				id: "09040A279C2E5391"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				count: 8L
+				id: "6BFD2EC4FB490CBB"
+				item: "ad_astra:raw_ostrum"
+				type: "item"
+			}]
+			title: "Сырой страус"
+			x: -3.0d
+			y: -36.0d
+		}
+		{
+			dependencies: [
+				"4B841F7EA8E74F24"
+				"434CEEF75CA0F9DD"
+				"0E82BE6796216A9B"
+			]
+			description: ["&7Этот уровень ракеты позволит вам отправиться на Меркурий и Венеру, в то время как на Меркурии довольно спокойно, Венера таит в себе много богатств."]
+			id: "142DA24413D40E4E"
+			rewards: [{
+				id: "3A389C7F2F79A50E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "1FECB2A6AD48BB35"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&4Ракеты 3 уровня"
+			x: -3.0d
+			y: -45.0d
+		}
+		{
+			dependencies: ["558CABCE1E1650E6"]
+			id: "434CEEF75CA0F9DD"
+			rewards: [
+				{
+					id: "647149D816601457"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 16
+					id: "7C13955426E88699"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21EBD610A634AE96"
+				item: "ad_astra:ostrum_engine"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -42.5d
+		}
+		{
+			dependencies: ["558CABCE1E1650E6"]
+			id: "0E82BE6796216A9B"
+			rewards: [
+				{
+					id: "399B65E277565C8D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 16
+					id: "29D2A9A66AED0D55"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "522EAE372EF12185"
+				item: { Count: 2, id: "ad_astra:ostrum_tank" }
+				type: "item"
+			}]
+			title: "Резервуары для страуса"
+			x: -3.0d
+			y: -42.5d
+		}
+		{
+			dependencies: ["558CABCE1E1650E6"]
+			id: "4B841F7EA8E74F24"
+			rewards: [
+				{
+					id: "526A53EB7EA10D01"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 16
+					id: "5224E837E08CBECA"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "6DB9DC1C1D10ED42"
+				item: { Count: 6, id: "ad_astra:ostrum_block" }
+				type: "item"
+			}]
+			title: "Острумовые блоки"
+			x: -1.0d
+			y: -42.5d
+		}
+		{
+			dependencies: ["142DA24413D40E4E"]
+			id: "705B1CD5F2C71EF4"
+			rewards: [{
+				id: "014C7567EB49F028"
+				type: "xp"
+				xp: 600
+			}]
+			subtitle: "Калорит, конечно"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "7E03DF242B6E6C94"
+				title: "Посетить Венеру"
+				type: "dimension"
+			}]
+			title: "&3На Венеру, чтобы добраться"
+			x: -5.0d
+			y: -46.5d
+		}
+		{
+			dependencies: ["142DA24413D40E4E"]
+			id: "67FA7DBCB356CC99"
+			rewards: [{
+				id: "695FFFFE49DA4D99"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "307AC38BAE7E2009"
+				title: "&eПосетите Меркурий"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: -46.5d
+		}
+		{
+			dependencies: ["67FA7DBCB356CC99"]
+			id: "0849D643DDBD0176"
+			rewards: [
+				{
+					count: 16
+					id: "39D93A146773FD3F"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					id: "25E8D64332B6A0AD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "26D3652DCCE7A0D2"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				icon: "minecraft:magma_block"
+				id: "07F3AA320674988E"
+				title: "Уничтожьте кубики магмы"
+				type: "kill"
+				value: 600L
+			}]
+			x: 1.5d
+			y: -47.5d
+		}
+		{
+			dependencies: ["705B1CD5F2C71EF4"]
+			id: "12EFC48EA2226887"
+			rewards: [
+				{
+					id: "46E1B0FE1230A23D"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 16
+					id: "3D4126399D987C8A"
+					item: "ad_astra:raw_calorite"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4731815A199EDADE"
+				item: "ad_astra:raw_calorite"
+				type: "item"
+			}]
+			title: "Сырой калорит"
+			x: -7.0d
+			y: -48.5d
+		}
+		{
+			dependencies: ["12EFC48EA2226887"]
+			id: "37EE2D37BACACD33"
+			rewards: [
+				{
+					id: "27D82B65F3AF13AA"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 16
+					id: "087A654FD09D4D3A"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 16L
+				id: "0520C4793D90441F"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			title: "Слитки калорита"
+			x: -7.0d
+			y: -50.5d
+		}
+		{
+			dependencies: ["37EE2D37BACACD33"]
+			id: "5DA393D255FB9F2F"
+			rewards: [
+				{
+					id: "3D16BA333BDA6237"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 8
+					id: "26195BD08BED06B7"
+					item: "ad_astra:calorite_plate"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 16L
+				id: "5780EF17B63E9735"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			title: "Калоритные пластины"
+			x: -7.0d
+			y: -52.5d
+		}
+		{
+			dependencies: ["5DA393D255FB9F2F"]
+			id: "696BFCF82A1548B3"
+			rewards: [{
+				id: "78779246ECD79070"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "7BAA183A2ABAB018"
+				item: "ad_astra:calorite_engine"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -55.0d
+		}
+		{
+			dependencies: ["5DA393D255FB9F2F"]
+			id: "643C958E7FDE2566"
+			rewards: [{
+				id: "40A8B74471F84832"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				count: 2L
+				id: "06D50AB5DE63D716"
+				item: { Count: 2, id: "ad_astra:calorite_tank" }
+				type: "item"
+			}]
+			title: "Резервуары с калоритом"
+			x: -7.0d
+			y: -55.0d
+		}
+		{
+			dependencies: ["5DA393D255FB9F2F"]
+			id: "2074788FCA6A6C61"
+			rewards: [{
+				id: "6886F27DFEE961B5"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				count: 6L
+				id: "328C685CFD0ACB58"
+				item: { Count: 6, id: "ad_astra:calorite_block" }
+				type: "item"
+			}]
+			title: "Калоритные блоки"
+			x: -5.0d
+			y: -55.0d
+		}
+		{
+			dependencies: [
+				"2074788FCA6A6C61"
+				"696BFCF82A1548B3"
+				"643C958E7FDE2566"
+			]
+			description: ["&7Это последний ярус ракеты. С помощью этой штуки вы сможете посетить другие Солнечные системы."]
+			id: "78329681F2A34FE3"
+			rewards: [{
+				id: "211D75BEA9B1C990"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "7356D499CB9442A2"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6Ракеты 4 уровня"
+			x: -7.0d
+			y: -57.5d
+		}
+		{
+			dependencies: ["78329681F2A34FE3"]
+			description: ["&7Эта система имеет совершенно уникальное Солнце."]
+			icon: "ad_astra:glacio_globe"
+			id: "1EE01E51C7059707"
+			rewards: [{
+				id: "6C3919CF07ECF4C7"
+				type: "xp"
+				xp: 600
+			}]
+			subtitle: "Вон из этой системы!"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "6A9E8883EF3D8226"
+				title: "Посетите Гласио"
+				type: "dimension"
+			}]
+			title: "&8Посетите Гласио"
+			x: -7.0d
+			y: -59.5d
+		}
+		{
+			dependencies: ["3043283448B9EDDF"]
+			id: "7911C6C7B0A352EF"
+			rewards: [
+				{
+					id: "5C11B1F68841F59E"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 5
+					id: "58BEF2B5D5738BCB"
+					item: "ad_astra:calorite_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "ad_astra:pygro"
+				icon: "botania:third_eye"
+				id: "0EB82623B0927D5E"
+				title: "Убивай пигротов"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: -49.5d
+		}
+		{
+			dependencies: ["705B1CD5F2C71EF4"]
+			icon: "ad_astra:calorite_pillar"
+			id: "6F210120F317C24F"
+			rewards: [{
+				id: "3D0EC9528A4F5CB5"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				icon: "ad_astra:calorite_pillar"
+				id: "715F440897394627"
+				structure: "ad_astra:pygro_tower"
+				title: "Посетите башню Пигро"
+				type: "structure"
+			}]
+			title: "Посетите башню Пигро "
+			x: -7.0d
+			y: -45.5d
+		}
+		{
+			dependencies: ["705B1CD5F2C71EF4"]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3043283448B9EDDF"
+			rewards: [{
+				id: "6DE08C4A42B9F238"
+				type: "xp"
+				xp: 600
+			}]
+			subtitle: "Как поросята, только странные"
+			tasks: [{
+				icon: "minecraft:piglin_head"
+				id: "3ECFDB7288CD1F43"
+				structure: "ad_astra:pygro_village"
+				title: "Посетите пигро-деревню"
+				type: "structure"
+			}]
+			title: "Найдите пигро-деревню"
+			x: -3.5d
+			y: -48.0d
+		}
+		{
+			dependencies: ["6F210120F317C24F"]
+			id: "45AD5F6B6C073B7C"
+			rewards: [
+				{
+					id: "78334AF1020D3780"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 2
+					id: "3179068C4B94D04F"
+					item: "ad_astra:calorite_block"
+					type: "item"
+				}
+			]
+			subtitle: "Ограбленный"
+			tasks: [{
+				entity: "ad_astra:mogler"
+				icon: {
+					Count: 1
+					id: "mythicupgrades:jade_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2B7653E47E341D9E"
+				title: "Убивайте Моглеров"
+				type: "kill"
+				value: 100L
+			}]
+			x: -9.0d
+			y: -44.5d
+		}
+		{
+			dependencies: ["1EE01E51C7059707"]
+			icon: {
+				Count: 1
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:ponder_goat_horn"
+				}
+			}
+			id: "3DB40255A2C2F38E"
+			rewards: [{
+				id: "657DD4A1798ED1BB"
+				type: "xp"
+				xp: 600
+			}]
+			subtitle: "Монстр..."
+			tasks: [{
+				entity: "ad_astra:glacian_ram"
+				id: "51C2482E5D85E3FF"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Убить ледяного барана"
+			x: -7.0d
+			y: -61.5d
+		}
+		{
+			dependencies: ["1EE01E51C7059707"]
+			id: "57C0E76F5A21045B"
+			rewards: [{
+				id: "48A39E77893010DE"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "24B19029810B14BC"
+				item: "minecraft:milk_bucket"
+				title: "Подоите ледникового барана"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -60.0d
+		}
+		{
+			dependencies: ["1EE01E51C7059707"]
+			id: "4F39B8FFE9FA2DAC"
+			rewards: [{
+				id: "104560B3BBAFE47D"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "06B600A65003F407"
+				item: "ad_astra:ice_shard"
+				type: "item"
+			}]
+			title: "Собирайте осколки льда"
+			x: -9.0d
+			y: -60.0d
+		}
+		{
+			dependencies: ["5DA393D255FB9F2F"]
+			description: ["&7Этот комплект доспехов позволяет вам летать! это один из двух видов доспехов, которые позволяют это делать. "]
+			icon: {
+				Count: 1
+				id: "ad_astra:jet_suit_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "48459238D7D610A7"
+			rewards: [{
+				id: "44739A546566C0EC"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "4D4B80D36B9B9B8C"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48A4AD9BD6A3D3E8"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F359DA7C563EAE4"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "431077894C2781BA"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&5Хочешь полетать?"
+			x: -10.5d
+			y: -52.5d
+		}
+		{
+			dependencies: ["75029E075A6B4A1C"]
+			id: "558CABCE1E1650E6"
+			rewards: [
+				{
+					id: "0794EA87DECF76AC"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 16
+					id: "0DBDFB210D7D6DC1"
+					item: "ad_astra:ostrum_plate"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "284328BA49C20BDE"
+				item: "ad_astra:ostrum_plate"
+				type: "item"
+			}]
+			title: "Пластины из страуса"
+			x: -3.0d
+			y: -40.0d
+		}
+		{
+			dependencies: ["75029E075A6B4A1C"]
+			id: "0321AD3F36AF2E3D"
+			rewards: [
+				{
+					id: "639697A5A09D158E"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 8
+					id: "1BB7ADBFE4F017A5"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "0EB99054F58E05E5"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44D2FBBF29E690F8"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A5D0EA933AE230E"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FCF3B32971D139D"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["37B1A85BBE83CE80"]
+			id: "4501FF1F848AAA89"
+			rewards: [
+				{
+					id: "5310F9472261E326"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "0037103178CB1B99"
+					item: "techreborn:steel_storage_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2B3AA68D30FA3B7A"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "ad_astra:earth_orbit"
+					icon: "ad_astra:iron_pillar"
+					id: "22A5801FDE0A6ACA"
+					optional_task: true
+					title: "Создайте космическую станцию на орбите"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:glacio_orbit"
+					icon: "ad_astra:iron_pillar"
+					id: "564184294F1993B9"
+					optional_task: true
+					title: "Создайте космическую станцию на орбите"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:mars_orbit"
+					icon: "ad_astra:iron_pillar"
+					id: "789EE3EDD3C34EDD"
+					optional_task: true
+					title: "Создайте космическую станцию на орбите"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:mercury_orbit"
+					icon: "ad_astra:iron_pillar"
+					id: "3BE806352757CFF6"
+					optional_task: true
+					title: "Создайте космическую станцию на орбите"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:moon_orbit"
+					icon: "ad_astra:iron_pillar"
+					id: "66E1821D4A5703BF"
+					optional_task: true
+					title: "Создайте космическую станцию на орбите"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:venus_orbit"
+					icon: "ad_astra:iron_pillar"
+					id: "1455ECC1B7795580"
+					optional_task: true
+					title: "Создайте космическую станцию на орбите"
+					type: "dimension"
+				}
+			]
+			title: "Постройте космическую станцию!"
+			x: 2.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["37B1A85BBE83CE80"]
+			dependency_requirement: "all_started"
+			description: ["&7Zip gun может быть наполнен кислородом, чтобы перемещать вас по местам, где сила тяжести немного меньше 1g, например, по орбите."]
+			id: "19D7523D237BCCE9"
+			rewards: [{
+				id: "0676B41D49B28D4A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Не убивает"
+			tasks: [{
+				id: "5B00456AE025E193"
+				item: {
+					Count: 1
+					id: "ad_astra:zip_gun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Пистолет с застежкой-молнией"
+			x: 4.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["646AB33B769E10F0"]
+			description: ["&7Вы можете построить космическую станцию на любой орбите вокруг любого небесного тела. Просто возьмите с собой в полет необходимые ингредиенты. Оказавшись там, смело создавайте все, что захотите. Имейте в виду, что там замерзает вода."]
+			hide_dependency_lines: true
+			icon: "ad_astra:glowing_steel_pillar"
+			id: "37B1A85BBE83CE80"
+			rewards: [
+				{
+					id: "10E56BC263093557"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "272A1F7BC7482902"
+					item: "techreborn:steel_storage_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58BAD23C56A07301"
+				type: "checkmark"
+			}]
+			title: "Ваша собственная космическая станция"
+			x: 2.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["65C105AC2FC701F7"]
+			id: "1398A4247ACC9AF1"
+			rewards: [
+				{
+					id: "3096C140498F66D6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "41DDC53977DF21CD"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 40500L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "300CA43CBD7B9587"
+				item: "ad_astra:oxygen_distributor"
+				title: "Изготовьте распределитель &bкислорода"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["75029E075A6B4A1C"]
+			id: "76005DFA3EA72153"
+			rewards: [
+				{
+					id: "7731ED690561074F"
+					item: "ad_astra:solar_panel"
+					type: "item"
+				}
+				{
+					id: "449AB8013AF619A2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "46C486C325010BCE"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "&6Топливо достать &rсложно, для этого &aприходится выходить &rв океан и искать &bмасляные фонтаны&r. &3Криофризер &rпредставляет собой новый способ получения более &3качественного криотоплива&r. &3Криотопливо &rнамного эффективнее &aрафинированного топлива&r, что позволяет запускать ракету всего с одним &9ведром&r."
+			tasks: [{
+				id: "672A1B3159A82E2B"
+				item: "ad_astra:cryo_freezer"
+				title: "Создайте &4криогенную морозильную камеру"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["65C105AC2FC701F7"]
+			id: "16AF703333826016"
+			rewards: [
+				{
+					count: 2
+					id: "5E6F20AB7D1040DE"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "0991D0C7D93D7E7C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "4BCF57AA8A7A921F"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "вром вром"
+			tasks: [{
+				id: "47E1D3173BE3B4D2"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Пират"
+			x: 0.5d
+			y: -26.0d
+		}
+		{
+			dependencies: ["65C105AC2FC701F7"]
+			id: "55AC88578E863F1D"
+			rewards: [{
+				id: "3A788CB84928B5A5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Водяной &bнасос &rнеобходим для бесперебойной работы &b&rкислородного распределителя. Чтобы использовать его, разместите источник воды с &bбесконечным количеством воды &rвнизу, затем установите &bводяной насос &rнад одним из водяных блоков, а затем установите &bкислородный распределитель &rрядом с ним. Убедитесь в том, что и &bводяной насос, &rи распределитель &bкислорода &rснабжены достаточной &cмощностью&r.&r"
+			tasks: [{
+				id: "37F586D82E8329C2"
+				item: "ad_astra:water_pump"
+				title: "Смастерьте &bводяной насос"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["0885FE2B6216B8B6"]
+			id: "75029E075A6B4A1C"
+			rewards: [
+				{
+					id: "2F214F3A2E8547F2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "0B4D78542BDC5FB4"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 16L
+				id: "099DD39D61C32682"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["411898A3561A0A8F"]
+			id: "3540E0658729A07A"
+			rewards: [
+				{
+					id: "463B2C23E758BB8D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 9
+					id: "60131F1E63DDEDD8"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "ad_astra:mars_sand"
+				id: "41CC0291410AF99B"
+				structure: "ad_astra:mars_temple"
+				title: "Найдите храм &4Марса"
+				type: "structure"
+			}]
+			title: "Найдите храм Марса"
+			x: -5.5d
+			y: -32.5d
+		}
+	]
+	title: " &dАстральное царство"
+}
