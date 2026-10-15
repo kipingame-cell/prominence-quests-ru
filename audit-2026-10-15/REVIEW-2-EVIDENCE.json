@@ -1,0 +1,102 @@
+{
+  "repo": "prominence-quests-ru",
+  "source_commit": "40801c4acd6f5cacd9566b9694f94333a361175d",
+  "source_tree": "c4b0a9364e439ecfe369e42cea7b3317b2fb267a",
+  "date": "2026-10-15",
+  "structure": {
+    "repo": "prominence-quests-ru",
+    "blobs": 43,
+    "bytes": 1884534,
+    "workflow_files": [
+      ".github/workflows/publish-release.yml"
+    ],
+    "lockfiles": [],
+    "licenses": [],
+    "readme_broken_links": []
+  },
+  "releases_first_10": [
+    {
+      "tag": "translation-a6c4e430af6b",
+      "draft": true,
+      "prerelease": false,
+      "assets": []
+    },
+    {
+      "tag": "translation-551ccedd4025",
+      "draft": true,
+      "prerelease": false,
+      "assets": []
+    },
+    {
+      "tag": "translation-cb91fe820ea4",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "Prominence-quests-ru.zip",
+          "bytes": 346851,
+          "digest": "sha256:8e1f1bc116fb04d0f63fe55f75f3a67c3dcf5219f08224920971e1c05992ea89"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 91,
+          "digest": "sha256:53b9c342bc37fb18ae09f666aef14bb38aeb367579e31b2c185e18aed2cd0a8d"
+        }
+      ]
+    },
+    {
+      "tag": "translation-a5ea64a3b88b",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "Prominence-quests-ru.zip",
+          "bytes": 346851,
+          "digest": "sha256:8e1f1bc116fb04d0f63fe55f75f3a67c3dcf5219f08224920971e1c05992ea89"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 91,
+          "digest": "sha256:53b9c342bc37fb18ae09f666aef14bb38aeb367579e31b2c185e18aed2cd0a8d"
+        }
+      ]
+    }
+  ],
+  "runs_latest_5": [
+    {
+      "id": 37757631874,
+      "name": "Publish verified translation archive",
+      "head_sha": "a5ea64a3b88bb5a3dd9bce69916a5571838af876",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 37757356331,
+      "name": "Publish verified translation archive",
+      "head_sha": "cb91fe820ea49f710ca7af31230cdf9eeaa7813a",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 37757181363,
+      "name": "Publish verified translation archive",
+      "head_sha": "a6c4e430af6b529ae9e6792a8d22368dc6290351",
+      "status": "completed",
+      "conclusion": "failure"
+    },
+    {
+      "id": 37753321467,
+      "name": "Publish verified translation archive",
+      "head_sha": "551ccedd40250740af200211223c0c65ca1e3558",
+      "status": "completed",
+      "conclusion": "failure"
+    }
+  ],
+  "apk": {
+    "repo": "prominence-quests-ru",
+    "status": "no apk in latest published release",
+    "tag": "translation-cb91fe820ea4"
+  },
+  "findings": [],
+  "reproductions": []
+}
