@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-15",
+  "repo": "prominence-quests-ru",
+  "snapshot_ref": "a5ea64a3b88bb5a3dd9bce69916a5571838af876",
+  "branch": "main",
+  "files_in_tree": 41,
+  "fetched_files": [
+    ".github/workflows/publish-release.yml",
+    "README.md",
+    "chapters/4trophy_collection.snbt",
+    "chapters/8the_prision.snbt",
+    "chapters/applied_energistics_2.snbt",
+    "chapters/archon.snbt",
+    "chapters/artifact_reforging.snbt",
+    "chapters/backpacks.snbt",
+    "chapters/botania.snbt",
+    "chapters/c_bewitchment.snbt",
+    "chapters/collectibles.snbt",
+    "chapters/collectibles_2.snbt",
+    "chapters/create.snbt",
+    "chapters/d_the_art_of_transmogrification.snbt",
+    "chapters/deeper_and_darker.snbt",
+    "chapters/dmastering_fatew.snbt",
+    "chapters/dplanets_and_space.snbt",
+    "chapters/e_spell_books.snbt",
+    "chapters/eenchanting.snbt",
+    "chapters/einformation_7new_mechanics.snbt",
+    "chapters/elhasturian_era.snbt",
+    "chapters/gadgets.snbt",
+    "chapters/gear_mariums_soulslike_weaponry.snbt",
+    "chapters/getting_started.snbt",
+    "chapters/main_story.snbt",
+    "chapters/modern_industrialization.snbt",
+    "chapters/powah.snbt",
+    "chapters/reforging.snbt",
+    "chapters/simply_swords.snbt",
+    "chapters/tech_reborn.snbt",
+    "chapters/the_bumblezone.snbt",
+    "chapters/the_nether.snbt",
+    "chapters/to_the_end.snbt",
+    "scripts/publish-release.py",
+    "validation-report.json"
+  ],
+  "findings": 2,
+  "apk_runtime_tested": false,
+  "full_history_audited": false,
+  "releases_sample": [
+    {
+      "tag": "translation-a6c4e430af6b",
+      "draft": true,
+      "prerelease": false,
+      "assets": []
+    },
+    {
+      "tag": "translation-551ccedd4025",
+      "draft": true,
+      "prerelease": false,
+      "assets": []
+    },
+    {
+      "tag": "translation-cb91fe820ea4",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        "Prominence-quests-ru.zip",
+        "SHA256SUMS.txt"
+      ]
+    },
+    {
+      "tag": "translation-a5ea64a3b88b",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        "Prominence-quests-ru.zip",
+        "SHA256SUMS.txt"
+      ]
+    }
+  ]
+}
