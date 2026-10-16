@@ -43,7 +43,7 @@ def publish(repo, run, files, directory, dry_run=False):
     if matches:
         release = max(matches, key=lambda r: (len(r['assets']), -r['id']))
     else:
-        archive_commit = api(f'repos/{repo}/git/ref/heads/main')['object']['sha']
+        archive_commit = run['head_sha']
         notes = (
             f'Сохранённая успешная сборка #{run["run_number"]}.\n\n'
             f'Исходный коммит сборки: {run["head_sha"]}.\nСнимок архивного тега: {archive_commit}.\n'
@@ -88,3 +88,4 @@ repo = os.environ['GITHUB_REPOSITORY']
 sha = os.environ['GITHUB_SHA']
 with tempfile.TemporaryDirectory() as temp:
     publish(repo, {'run_number': 31, 'head_sha': sha, 'name': '31 главы FTB Quests: ZIP и SHA-256 сверены; Minecraft не запускался', 'html_url': f'https://github.com/{repo}/actions/runs/{os.environ["GITHUB_RUN_ID"]}'}, [archive], temp)
+
